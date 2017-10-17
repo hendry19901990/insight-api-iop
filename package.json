@@ -1,0 +1,53 @@
+{
+  "name": "insight-api-iop",
+  "description": "A IoP blockchain REST and web socket API service for IoPcore Node.",
+  "version": "0.1.0",
+  "repository": "git://github.com/hendry19901990/insight-api-iop.git",
+  "contributors": [
+    {
+      "name": "Hendry Rodriguez",
+      "email": "hendryrodriguez1990@gmail.com"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/hendry19901990/insight-api-iop/issues"
+  },
+  "homepage": "https://github.com/hendry19901990/insight-api-iop",
+  "license": "MIT",
+  "keywords": [
+    "insight",
+    "insight api",
+    "blockchain",
+    "Internet of People",
+    "iop api",
+    "blockchain api",
+    "json",
+    "iopcore"
+  ],
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha -R spec --recursive"
+  },
+  "main": "lib",
+  "iopcoreNode": "lib",
+  "dependencies": {
+    "async": "*",
+    "iopcore-lib": "^0.1.0",
+    "iopcore-message": "^0.1.0",
+    "body-parser": "^1.13.3",
+    "compression": "^1.6.1",
+    "lodash": "^2.4.1",
+    "lru-cache": "^4.0.1",
+    "morgan": "^1.7.0",
+    "request": "^2.64.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.2",
+    "should": "^8.3.1",
+    "sinon": "^1.10.3"
+  }
+}
