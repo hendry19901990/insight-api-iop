@@ -1,7 +1,7 @@
 {
   "name": "insight-api-iop",
   "description": "A IoP blockchain REST and web socket API service for IoPcore Node.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "git://github.com/hendry19901990/insight-api-iop.git",
   "contributors": [
     {
@@ -34,7 +34,7 @@
   "iopcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "iopcore-lib": "^0.1.0",
+    "iopcore-lib": "^0.1.1",
     "iopcore-message": "^0.1.0",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
